@@ -1,0 +1,26 @@
+{
+  "name": "Tuya Cloud Unlock",
+  "version": "1.0.0",
+  "slug": "tuya_cloud_unlock",
+  "description": "Unlock Tuya smart lock using Tuya Cloud API",
+  "startup": "once",
+  "boot": "auto",
+  "options": {
+    "access_id": "your_access_id",
+    "access_key": "your_access_key",
+    "device_id": "your_device_id",
+    "api_region": "tuyaeu"
+  },
+  "schema": {
+    "access_id": "str",
+    "access_key": "str",
+    "device_id": "str",
+    "api_region": "str"
+  },
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armv7"
+  ],
+  "host_network": true
+}
